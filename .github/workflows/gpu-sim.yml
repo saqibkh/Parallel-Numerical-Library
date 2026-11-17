@@ -7,6 +7,8 @@ name: GPU Simulator
 # measured on real hardware and does not replace them.
 
 on:
+  push:
+    branches: [verify-gpu-sim]
   workflow_dispatch:
   pull_request:
     paths:
